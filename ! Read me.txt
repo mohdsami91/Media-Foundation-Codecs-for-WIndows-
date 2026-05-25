@@ -1,0 +1,52 @@
+INSTALLATION:
+--------------
+Double-click each AppxBundle file to install it.
+
+Please read the notes below before installing.
+
+If your Windows installation does not include the Microsoft Store, you may need to install it first.
+
+
+UPDATING:
+----------
+After installation, these codecs will update automatically through the Microsoft Store.
+
+
+UNINSTALLATION:
+----------------
+You can uninstall individual codecs via the Windows Settings app.
+However, uninstallation is typically unnecessary.
+
+
+NOTES:
+-------
+- HEVC decoder requires a modern GPU capable of hardware HEVC video decoding.
+- HEIF Image Extension depends on the HEVC decoder.
+- VCLibs is required by both Raw Image Extension and Web Media Extension.
+- Dolby Digital Plus Decoder is only needed for Windows 11 24H2 and newer. (Older versions of Windows 10/11 include an AC3/E-AC3 decoder.)
+- Dolby AC-4 Decoder works only with Windows 11.
+- Raw Image Extension:
+    v2.4.7.0 is for Windows 10
+    v2.5.5.0 is for Windows 11 24H2
+
+
+SOURCE OF FILES:
+-----------------
+These are official packages downloaded directly from Microsoft servers.
+You can manually acquire them from:
+https://store.rg-adguard.net/
+
+Use the following ProductIDs to search:
+
+Codec               ProductID
+------------------------------
+HEVC                9n4wgh0z6vhq
+VP9                 9n4d0msmp0pt
+AV1                 9mvzqvxjbq9v
+MPEG-2              9n95q1zzpmh4
+Web Media           9n5tdp8vcmhs
+HEIF Image          9pmmsr1cgpwg
+WebP Image          9pg2dk419drg
+Raw Image           9nctdw2w1bh8
+Dolby Digital Plus  9nvjqjbdkn97
+AC-4                9p7646qph1q0
